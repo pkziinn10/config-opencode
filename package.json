@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@opencode-ai/plugin": "1.18.13",
+    "@opentui/core": "0.5.1",
+    "@opentui/solid": "0.5.1",
+    "oh-my-opencode-slim": "^2.2.10",
+    "opencode-copilot-auth": "^0.0.12"
+  },
+  "overrides": {
+    "oh-my-opencode-slim": {
+      "@opentui/core": "0.5.1",
+      "@opentui/solid": "0.5.1"
+    }
+  },
+  "allowScripts": {
+    "@ast-grep/cli@0.44.1": true
+  }
+}

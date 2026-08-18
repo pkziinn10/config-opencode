@@ -1,0 +1,32 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "oh-my-opencode-slim",
+    "caveopen@latest",
+    "rtk",
+    "opencode-copilot-auth"
+  ],
+  "agent": {
+    "explore": {
+      "disable": true
+    },
+    "general": {
+      "disable": true
+    }
+  },
+  "instructions": ["REGRAS_GLOBAIS.md"],
+  "lsp": true,
+  "provider": {
+    "github-copilot": {}
+  },
+  "mcp": {
+    "cavemem": {
+      "type": "local",
+      "command": [
+        "node",
+        "/home/pk/.local/share/cavemem-fix/node_modules/.bin/cavemem",
+        "mcp"
+      ]
+    }
+  }
+}
